@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 여기에 넣을 것들은
+    1. 음향 조절
+    2.
+            **갑자기 든 생각인데 이걸 온라인으로 할 수 있게끔 하는것도
+            좋을거 같음!! 그 코드 입력하면 연결되는 형식으로!!
+            만약 가능하다면 넣기!!!!!>_<
+
+
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

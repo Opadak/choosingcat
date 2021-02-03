@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 
 
         first_xml_btn_start.setOnClickListener {
-            setContentView(R.layout.activity_main)
+            setContentView(R.layout.random_main)
 
 
 
