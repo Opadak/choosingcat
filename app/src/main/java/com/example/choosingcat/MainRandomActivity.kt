@@ -30,7 +30,6 @@ class MainRandomActivity : AppCompatActivity() {
 
 
 
-
     }
 
 
@@ -76,24 +75,20 @@ class MainRandomActivity : AppCompatActivity() {
             doSomething()
 
         }*/
-        GlobalScope.launch(Dispatchers.Main) {
-            doSomething()
-            test2.setText("안녕하세요!")
-        }
+
 
         test.setText("$pointCount")
 
 
 
 
-
-
-
+        GlobalScope.launch(Dispatchers.Main) {
+            sleep(3000)
+            test2.setText("안녕하세요!")
+        }
 
 
         return super.onTouchEvent(event)
-
-
     }
 
    /* private var time = 0
