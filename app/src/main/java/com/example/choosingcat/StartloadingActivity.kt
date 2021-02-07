@@ -8,23 +8,12 @@ package com.example.choosingcat
     import kotlinx.android.synthetic.main.activity_main.*
     import kotlinx.android.synthetic.main.random_main.*
 
-class MainActivity : AppCompatActivity() {
+class StartloadingActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_main)
-
-            //시작 로딩 창 만들기!
+            setContentView(R.layout.startloading)
 
 
-
-
-            first_xml_btn_start.setOnClickListener{
-
-
-                val intent = Intent(this,MainRandomActivity::class.java)
-                startActivity(intent)
-
-            }
 
         }
 

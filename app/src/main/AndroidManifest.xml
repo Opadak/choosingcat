@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainRandomActivity"/>
+       <!-- Unable to find explicit activity class는 매니 페스트에 액티비티가 명시되지\
+        않았을 때 나타나는 것이다-->
     </application>
 
 </manifest>

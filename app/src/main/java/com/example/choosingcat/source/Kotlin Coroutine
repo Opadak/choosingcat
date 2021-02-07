@@ -1,0 +1,11 @@
+
+간단하게 정지시키고 실행 시킬수 있음!
+Coroutine은 가벼운 쓰레드(Light-weight thread)라고 할 수 있습니다.
+쓰레드는 아니지만 비동기적인(asynchronous) 프로그래밍이 가능하게 만들어줍니다.
+
+
+
+
+https://codechacha.com/ko/android-coroutine/
+
+쓰인곳 => 멀티터치!
